@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(IMG/img-2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+nav button {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-content {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.header-content h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+}
+
+.header-content h3 {
+  font-weight: 400;
+  color: blanchedalmond;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.header-content p {
+  font-size: 30px;
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+/*----------------Features --------------- */
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.text-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.text-col h2 {
+  color: #e50914;
+  text-decoration: underline;
+}
+.text-col h2:hover {
+  color: whitesmoke;
+}
+
+.img-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.img-col img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.features h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  color: goldenrod;
+}
+
+/* -------------- BIOGRPAHY SECTION ----------------*/
+.biography_section {
+  margin: 50px 0;
+}
+.biography_section h3 {
+  font: bold;
+  text-decoration: underline;
+  color: #e50914;
+  margin-bottom: 20px;
+}
+.biography_section ul {
+  margin-left: 50px;
+}
+.biography_section li {
+  margin-bottom: 15px;
+}
+.foot-section {
+  text-align: center;
+  padding: 10px;
+}
+
+.foot-section p {
+  color: whitesmoke;
+}
+.foot-section button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: aqua;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
